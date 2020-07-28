@@ -1,0 +1,6 @@
+prediction.c:11:9:matrixConverter	48	static
+prediction.c:36:9:matrixTranspossed	48	static
+prediction.c:57:9:matrixProduct	56	static
+prediction.c:87:9:computeSigmoid	48	static
+prediction.c:108:6:computePrediction	56	static
+prediction.c:135:7:sigmoid	32	static
