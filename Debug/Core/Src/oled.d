@@ -1,4 +1,4 @@
-Core/Src/oled.o: ../Core/Src/oled.c ../Core/Src/oled.h \
+Core/Src/oled.o: ../Core/Src/oled.c ../Core/Inc/oled.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
  ../Core/Inc/stm32l4xx_hal_conf.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h \
@@ -33,9 +33,9 @@ Core/Src/oled.o: ../Core/Src/oled.c ../Core/Src/oled.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pcd.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_usb.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pcd_ex.h \
- ../Core/Src/numbers.h ../Core/Src/message.h
+ ../Core/Inc/numbers.h ../Core/Inc/message.h
 
-../Core/Src/oled.h:
+../Core/Inc/oled.h:
 
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:
 
@@ -105,6 +105,6 @@ Core/Src/oled.o: ../Core/Src/oled.c ../Core/Src/oled.h \
 
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pcd_ex.h:
 
-../Core/Src/numbers.h:
+../Core/Inc/numbers.h:
 
-../Core/Src/message.h:
+../Core/Inc/message.h:

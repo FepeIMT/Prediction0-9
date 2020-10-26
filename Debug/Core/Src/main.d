@@ -33,7 +33,7 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pcd.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_usb.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pcd_ex.h \
- ../Core/Src/data.h ../Core/Src/prediction.h ../Core/Src/oled.h
+ ../Core/Inc/data.h ../Core/Inc/prediction.h ../Core/Inc/oled.h
 
 ../Core/Inc/main.h:
 
@@ -105,8 +105,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pcd_ex.h:
 
-../Core/Src/data.h:
+../Core/Inc/data.h:
 
-../Core/Src/prediction.h:
+../Core/Inc/prediction.h:
 
-../Core/Src/oled.h:
+../Core/Inc/oled.h:
